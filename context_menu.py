@@ -3,7 +3,7 @@ import pynput.keyboard  as kb
 import pynput.mouse as ms
 import pyperclip
 import time
-from ToolTip import CreateToolTip
+from tooltip import CreateToolTip
 
 def show_bunch(f1,f2,f3):
     def OnButtonClick(button_id):
